@@ -93,13 +93,14 @@ a {
     transform: scale(1.05);
 }
 
-@media (max-width: 1330px) {
+@media (max-width: 768px) {
     body {
         padding: 15px;
+        background-position-y: -80px;
     }
 
     .logo img {
-        margin: 0 auto;
+        margin: 2rem auto;
         width: 80%;
         height: auto;
     }
@@ -107,5 +108,30 @@ a {
     h1 {
         font-size: 2rem;
         line-height: 2.25rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin-bottom: 3rem;
+    }
+
+    .appsstores {
+        gap: 0rem;
+        margin-top: 0rem;
+    }
+
+    .socials {
+        margin: 2rem 0;
+        text-align: center;
+    }
+
+    .main {
+        height: auto;
     }
 }
