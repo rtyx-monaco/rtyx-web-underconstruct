@@ -1,0 +1,19 @@
+# Système / éditeur
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# SASS / build (au cas où tu ajoutes plus tard)
+*.map
+node_modules/
+dist/
+build/
+
+# Sauvegardes temporaires
+*.bak
+*.tmp
+*.log
+
+# Fichiers système Linux
+*~
